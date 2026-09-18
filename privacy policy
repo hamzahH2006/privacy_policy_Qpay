@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - QPay</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #111111;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #222222;
+            margin-top: 25px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #eef9f2;
+            border-left: 4px solid #2e7d32;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for QPay</h1>
+        <p><strong>Effective Date:</strong> September 18, 2026</p>
+        <p><strong>Last Updated:</strong> September 18, 2026</p>
+
+        <p>Welcome to <strong>QPay</strong> ("we," "our," or "us"). We respect your privacy and are committed to protecting the personal data of our users. This Privacy Policy explains how our application handles your information in strict compliance with the <strong>Google Play Developer Program Policies</strong>, including the Developer Data Safety requirements.</p>
+
+        <div class="highlight">
+            <strong>Key Privacy Commitment:</strong> QPay operates on a <strong>Local-First Architecture</strong>. Your financial data and SMS notifications are processed entirely on your device and are <strong>NEVER</strong> transmitted, stored, or shared on any external servers or third-party cloud systems.
+        </div>
+
+        <h2>1. Information We Collect and Process</h2>
+        <p>To provide personal financial tracking, recurring subscription detection, and budget analytics, QPay requests access to specific device permissions and data:</p>
+        <ul>
+            <li><strong>SMS Permissions (Receive / Read SMS):</strong> With your explicit consent, QPay accesses incoming transactional SMS messages sent by supported banks (such as QIIB, QIB, CBQ). This permission is strictly utilized to parse bank transaction notifications locally on your device to automate expense tracking, detect monthly salary deposits, and track recurring bills.</li>
+            <li><strong>Local Application Data:</strong> Financial records, savings targets, category allocations, weekly budget settings, and custom transaction modifications created by you are saved locally on your device.</li>
+            <li><strong>Local Notifications Permission:</strong> Used solely to alert you about budget overruns, salary detection confirmations, and scheduled periodic financial summaries directly on your device.</li>
+        </ul>
+
+        <h2>2. How We Use Your Data</h2>
+        <p>All data processed by QPay is used exclusively for the following in-app functionalities:</p>
+        <ul>
+            <li>Automating expense and income categorization based on bank transaction SMS messages.</li>
+            <li>Generating local visual analytics, charts, saving goals, and PDF/Excel summary reports.</li>
+            <li>Sending local budget alerts and salary confirmation prompts.</li>
+            <li>Managing localized app preferences such as dark mode, language preference (Arabic/English), and primary bank selections.</li>
+        </ul>
+
+        <h2>3. Data Storage and Third-Party Sharing</h2>
+        <p>We strictly uphold a 0% server-side tracking model:</p>
+        <ul>
+            <li><strong>No Cloud Storage:</strong> All processed financial records and app data are saved locally using an encrypted local Hive database on your smartphone.</li>
+            <li><strong>No Third-Party Data Sharing:</strong> QPay does NOT sell, rent, trade, or transfer any personal or financial data to third parties, advertisers, data brokers, or analytics partners.</li>
+            <li><strong>No Remote API / Banking Credentials:</strong> QPay is not a payment gateway or digital wallet. It does not connect to online banking APIs, nor does it request bank account passwords or credit card credentials.</li>
+        </ul>
+
+        <h2>4. Data Retention, Control, and User Rights</h2>
+        <p>You maintain complete control over your data at all times:</p>
+        <ul>
+            <li><strong>Data Deletion & Trash Bin:</strong> You can edit or soft-delete any transaction directly within the app. Soft-deleted items move to the local "Trash Bin" where they can be restored or permanently removed at your discretion.</li>
+            <li><strong>Complete Data Erasure:</strong> Because all data is stored locally on your device, clearing the app data via your Android System Settings or uninstalling the QPay application will instantly and permanently erase all stored financial records and preferences.</li>
+            <li><strong>Permission Control:</strong> You may grant or revoke SMS and Notification permissions at any time through your device's Android settings. Revoking SMS permissions will disable automated transaction parsing without breaking manual usage of the app.</li>
+        </ul>
+
+        <h2>5. Data Security Standards</h2>
+        <p>We prioritize the protection of your financial records. QPay employs local background processing isolates (`Background Isolate`) to process bank SMS messages securely without impacting system performance or compromising data integrity. Since no data leaves your phone, your information remains safe from network interception and server-side data breaches.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>QPay is intended for general audiences interested in personal financial management and is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time to reflect changes in application features or legal requirements. Any modifications will be updated within this page, along with an updated "Last Updated" date at the top of this policy.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions, concerns, or inquiries regarding this Privacy Policy or QPay's privacy practices, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="hamzah60040607@gmail.com">hamzah60040607@gmail.com</a></p>
+
+        <footer>
+            &copy; 2026 QPay. All Rights Reserved.
+        </footer>
+    </div>
+</body>
+</html>
